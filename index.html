@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Image Comparison</title>
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/slider.css" />
+</head>
+
+<body>
+  <div class="image-container">
+    <!-- Image after AI upscaling -->
+    <picture class="after">
+      <img width="1231" height="815" src="./assets/images/after.jpg" alt="Imagem depois da edição" />
+    </picture>
+
+    <!-- Image before AI upscaling -->
+    <picture class="before">
+      <img width="1231" height="815" src="./assets/images/before.jpg" alt="Imagem antes da edição" />
+    </picture>
+
+    <!-- Slider and dragger -->
+    <input type="range" min="0" max="100" value="50" />
+
+    <div class="dragger">
+      <img src="./assets/svg/dragger.svg" />
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>

@@ -1,0 +1,47 @@
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  height: 100%;
+  width: 100%;
+
+  z-index: 10;
+}
+
+input::-webkit-slider-thumb {
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-color: white;
+
+  height: 100vw;
+  width: 8px;
+}
+
+input::-moz-range-thumb {
+  background-color: #121214;
+
+  border: none;
+  border-radius: 50%;
+
+  height: 20px;
+  width: 20px;
+}
+
+.dragger {
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
